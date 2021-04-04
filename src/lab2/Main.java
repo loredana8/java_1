@@ -33,7 +33,7 @@ public class Main {
         System.out.println("Restul impartirii a doua numere este:" + modulo);
         System.out.println ( "Temperatura in grade celsius este:" + ( Celsius *(memberVariable1-32f)) );
         System.out.println("Inch to meters conversion is:" + InchMeters + " m" );
-        System.out.println();
+
 
 
 
@@ -80,11 +80,6 @@ public class Main {
         int result = first % second;
         return result;
     }
-    public static void number(String number){
-        System.out.println("number + number + number");
-    }
-
-
 
 
 
