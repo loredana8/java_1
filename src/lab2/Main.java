@@ -2,11 +2,10 @@ package lab2;
 
 public class Main {
     static float memberVariable1 = 45;
-    static int distance = 150;
 
     public static void main(String[] args) {
         printName(" Loredana ");
-        int i = 4 + 5;
+        int sum = 4 + 5;
         int ii = substract (40, 10 );
         float iii = multiplication(3,5);
         float iiii = divide (3f, 2f );
@@ -18,11 +17,7 @@ public class Main {
 
 
 
-
-
-
-
-        System.out.println("Rezultatul adunarii este:" + i );
+        System.out.println("Rezultatul adunarii este:" + sum );
         System.out.println("Rezultatul scarderii este:"+ ii);
         System.out.println("Rezultatul inmultirii este:" +iii);
         System.out.println("Rezultatul impartiiri este:" + iiii);
@@ -33,9 +28,6 @@ public class Main {
         System.out.println("Restul impartirii a doua numere este:" + modulo);
         System.out.println ( "Temperatura in grade celsius este:" + ( Celsius *(memberVariable1-32f)) );
         System.out.println("Inch to meters conversion is:" + InchMeters + " m" );
-
-
-
 
     }
 
@@ -80,6 +72,8 @@ public class Main {
         int result = first % second;
         return result;
     }
+
+
 
 
 
