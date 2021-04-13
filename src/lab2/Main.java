@@ -11,8 +11,9 @@ public class Main {
         float iiii = divide (3f, 2f );
         int average  = sum (10, 4, 4) / 3;
         int modulo = modulo (13, 10 );
-        float Celsius = divide (5f, 9f);
         float InchMeters = multiplication (20f, 0.0254f );
+
+
 
 
 
@@ -25,9 +26,9 @@ public class Main {
         printJavaExecutive1();
 
         System.out.println("Media celor 3 numere este:"+ average );
-        System.out.println("Restul impartirii a doua numere este:" + modulo);
-        System.out.println ( "Temperatura in grade celsius este:" + ( Celsius *(memberVariable1-32f)) );
+        System.out.println( + modulo);
         System.out.println("Inch to meters conversion is:" + InchMeters + " m" );
+        System.out.println("Rezultatul transformarii in grade Celsius este:" + convertGrade(100));
 
     }
 
@@ -72,6 +73,11 @@ public class Main {
         int result = first % second;
         return result;
     }
+    public static double convertGrade(double F){
+        double c= (5.0/9.0) * (F -32.0);
+        return c;
+    }
+
 
 
 
